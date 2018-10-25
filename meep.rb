@@ -1,8 +1,8 @@
 class Meep < Formula
   desc "Finite-difference time-domain (FDTD) software from MIT"
-  homepage "http://ab-initio.mit.edu/wiki/index.php/Meep"
-  url "http://ab-initio.mit.edu/meep/meep-1.3.tar.gz"
-  sha256 "564c1ff1b413a3487cf81048a45deabfdac4243a1a37ce743f4fcf0c055fd438"
+  homepage "https://github.com/stevengj/meep"
+  url "https://github.com/stevengj/meep/releases/download/v1.6.0/meep-1.6.tar.gz"
+  sha256 "b6d8f15ba1af458f134d67fee11205bb32172b83074bc7769be9b2c17a3748d9"
 
   depends_on "cmake" => :build
   depends_on "hdf5"

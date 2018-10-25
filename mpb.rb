@@ -1,8 +1,8 @@
 class Mpb < Formula
   desc "MIT Photonic-Bands for computation of periodic dielectrica"
   homepage "http://ab-initio.mit.edu/wiki/index.php/MIT_Photonic_Bands"
-  url "http://ab-initio.mit.edu/mpb/mpb-1.5.tar.gz"
-  sha256 "3deafe79185eb9eb8a8fe97d9fe51624221f51c1cf4baff4b4a7242c51130bd7"
+  url "https://github.com/stevengj/mpb/releases/download/v1.6.2/mpb-1.6.2.tar.gz"
+  sha256 "aae270f9f51e7ff852fe578b8ef775b22489d4198f6a35ee0a91a60548fd1e3a"
 
   depends_on "cmake" => :build
   depends_on "hdf5"
